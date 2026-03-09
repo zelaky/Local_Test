@@ -13,3 +13,13 @@ git commit -m "Initial commit"
 git push -u origin main
 Username for 'https://github.com': zelaky
 Password for 'https://zelaky@github.com': #### (token)
+
+Tasks: 
+1. Connect local folder to GitHub repo without overwriting original version (make back-up)
+(after connecting .git is in local folder)
+Commands
+git rm -r "your subfolder name"
+git add — adding updated files to git repo (upload changes)
+git commit (note on what you changed)
+git push (replacing is the action)
+https://rogerdudler.github.io/git-guide/
